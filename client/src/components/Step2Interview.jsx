@@ -150,7 +150,7 @@ function Step2Interview({interviewData, onFinish}) {
   
       // QUESTION PHASE
       if (currentQuestion) {
-        setSubtitle("");
+        
         await new Promise((r) => setTimeout(r, 800));
   
         if (currentIndex === questions.length - 1) {
